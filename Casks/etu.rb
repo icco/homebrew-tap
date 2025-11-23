@@ -3,7 +3,7 @@ cask "etu" do
   name "etu"
   desc "A personal command line journal"
   homepage "https://github.com/icco/etu"
-  version "1.1.2"
+  version "1.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "etu" do
   on_macos do
     on_intel do
       url "https://github.com/icco/etu/releases/download/v#{version}/etu_#{version}_darwin_amd64.tar.gz"
-      sha256 "881fbd999a1899426d30838279031605ec8f7fcb13032feb9f4853f7c253936b"
+      sha256 "35bfe180a596a2a3e122b6404c237c0e0fe0fe5e55c9c00c89412f515ecbaa1e"
     end
     on_arm do
       url "https://github.com/icco/etu/releases/download/v#{version}/etu_#{version}_darwin_arm64.tar.gz"
-      sha256 "cccf8a13fcf731a1414b331b8b67b941a2ccbae29cd0992c30dfbe945059915a"
+      sha256 "0a35516f6af1c5e28cbd18050c6dd6d55238119d44a54539ac2a126de21ce686"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/icco/etu/releases/download/v#{version}/etu_#{version}_linux_amd64.tar.gz"
-      sha256 "0c8e37183e6383d3e7870fd929bd8cc6c00660dbfa542a917e18c1b5683ea047"
+      sha256 "a02f2f4bbe05c26d6f2215802fa82bff9706e1a15c1bf0c5bac22d78e52ebb0c"
     end
     on_arm do
       url "https://github.com/icco/etu/releases/download/v#{version}/etu_#{version}_linux_arm64.tar.gz"
-      sha256 "f2f11f2a305ad070f028d3ae3fceef7cc6e45c7ceaf29c92f7172acbf5be26cb"
+      sha256 "7953f1fb7e855f3cacd2d2c51d804b8a51d9836f0d1527f40bcce7f4ef833c34"
     end
   end
 
