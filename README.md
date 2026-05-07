@@ -16,3 +16,10 @@ brew tap icco/tap
   ```
   
   See [github.com/icco/etu](https://github.com/icco/etu) for more information.
+
+- **bugsim** - An attempt at a flight sim for programmers
+  ```bash
+  brew install bugsim
+  ```
+  
+  See [github.com/icco/bugsim](https://github.com/icco/bugsim) for more information.
