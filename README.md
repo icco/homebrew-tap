@@ -23,3 +23,10 @@ brew tap icco/tap
   ```
   
   See [github.com/icco/bugsim](https://github.com/icco/bugsim) for more information.
+
+- **gotak** - A CLI client for the Tak board-game server
+  ```bash
+  brew install gotak
+  ```
+
+  See [github.com/icco/gotak](https://github.com/icco/gotak) for more information.
