@@ -30,3 +30,10 @@ brew tap icco/tap
   ```
 
   See [github.com/icco/gotak](https://github.com/icco/gotak) for more information.
+
+- **art** - A CLI client for the Tak board-game server
+  ```bash
+  brew install art
+  ```
+
+  See [github.com/icco/art](https://github.com/icco/art) for more information.
