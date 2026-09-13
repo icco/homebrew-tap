@@ -36,9 +36,9 @@ cask "etu" do
   fish_completion "completions/etu.fish"
   zsh_completion "completions/_etu"
 
-  postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/etu"]
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{staged_path}}/etu"]
     end
   end
 

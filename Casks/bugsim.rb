@@ -37,9 +37,9 @@ cask "bugsim" do
   fish_completion "completions/bugsim.fish"
   zsh_completion "completions/_bugsim"
 
-  postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/bugsim"]
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{staged_path}}/bugsim"]
     end
   end
 
